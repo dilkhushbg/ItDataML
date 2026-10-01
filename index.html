@@ -229,10 +229,9 @@
   @media (max-width: 800px){ .team-grid{ grid-template-columns: 1fr; } }
   .team-card{ text-align:left; }
   .avatar{
-    width: 56px; height: 56px; border-radius: 50%; background: var(--teal); color: var(--bg);
-    display:flex; align-items:center; justify-content:center; font-family: var(--font-display);
-    font-weight:700; font-size: 1.05rem; margin-bottom: 14px;
-  }
+  width: 56px; height: 56px; border-radius: 50%;
+  object-fit: cover; display: block; margin-bottom: 14px;
+}
   .team-card h4{ font-family: var(--font-display); font-size: 1.02rem; font-weight:600; }
   .team-card .role{ font-size: 0.85rem; color: var(--gold); margin: 4px 0 10px; }
   .team-card p{ color: var(--ink-soft); font-size: 0.9rem; }
@@ -428,7 +427,7 @@
     </div>
     <div class="team-grid reveal">
       <div class="team-card">
-        <div class="avatar">F</div>
+        <img class="avatar" src="your-photo.jpg" alt="Founder">
         <h4>Founder</h4>
         <div class="role">Data Analytics &amp; AI Automation</div>
         <p>Leads every engagement end to end — from the first pilot to the automation running in production.</p>
