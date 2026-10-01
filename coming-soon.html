@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>It DataML — Coming Soon</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#101512; --panel:#171E1A; --ink:#ECEFEA; --ink-soft:#A6B2AA; --line:#2A332D; --teal:#4FB99D; --gold:#E0B24F;
+    box-sizing:border-box; padding-top:env(safe-area-inset-top,0px); padding-bottom:env(safe-area-inset-bottom,0px);
+  }
+  *{ margin:0; padding:0; box-sizing:border-box; }
+  html,body{ height:100%; }
+  body{
+    background:var(--bg); color:var(--ink); font-family:'Inter',system-ui,sans-serif;
+    display:flex; align-items:center; justify-content:center; text-align:center;
+    padding: 32px;
+  }
+  .wrap{ max-width: 440px; }
+  .brand{ font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:1.4rem; }
+  .brand .dot{ color:var(--teal); }
+  .tagline{ font-size:0.8rem; color:var(--ink-soft); margin-top:4px; margin-bottom:40px; }
+  h1{ font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:clamp(1.7rem,5vw,2.3rem); letter-spacing:-0.01em; margin-bottom:16px; }
+  h1 span{ color:var(--teal); }
+  p{ color:var(--ink-soft); font-size:1rem; line-height:1.6; max-width:34ch; margin:0 auto; }
+  .cta-row{ margin-top:32px; display:flex; gap:12px; justify-content:center; flex-wrap:wrap; }
+  .btn{ display:inline-block; padding:12px 22px; border-radius:3px; font-weight:600; font-size:0.9rem; text-decoration:none; border:1px solid var(--ink); color:var(--ink); }
+  .btn.primary{ background:var(--teal); border-color:var(--teal); color:#0d140f; }
+  .social-row{ display:flex; gap:18px; justify-content:center; margin-top:44px; }
+  .social-row a{ color:var(--ink-soft); display:flex; }
+  .social-row a:hover{ color:var(--teal); }
+  .social-row svg{ width:18px; height:18px; }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="brand">It Data<span class="dot">ML</span></div>
+    <div class="tagline">Insight that acts.</div>
+
+    <h1>We're building<br>something <span>new</span>.</h1>
+    <p>This page isn't ready yet — but the agency is open and taking on projects. Reach out directly and let's talk about what you need.</p>
+
+    <div class="cta-row">
+      <a href="mailto:itdataml.agency@gmail.com" class="btn primary">Email us</a>
+      <a href="https://wa.me/919999999999" target="_blank" rel="noopener" class="btn">WhatsApp</a>
+    </div>
+
+    <div class="social-row">
+      <a href="https://linkedin.com/company/dataml" aria-label="LinkedIn" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5C4.98 4.88 3.9 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1s2.48 1.12 2.48 2.5zM.24 8.25h4.5V23H.24V8.25zM8.5 8.25h4.31v2.02h.06c.6-1.13 2.06-2.33 4.25-2.33 4.54 0 5.38 2.99 5.38 6.87V23h-4.5v-6.36c0-1.52-.03-3.47-2.11-3.47-2.12 0-2.45 1.65-2.45 3.36V23H8.5V8.25z"/></svg></a>
+      <a href="https://instagram.com/dataml" aria-label="Instagram" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2.5" y="2.5" width="19" height="19" rx="5"/><circle cx="12" cy="12" r="4.2"/><circle cx="17.3" cy="6.7" r="1.1" fill="currentColor" stroke="none"/></svg></a>
+      <a href="https://x.com/dataml" aria-label="X" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M13.6 10.6 21 2h-2.4l-6.4 7.4L6.6 2H1l7.8 11.3L1 22h2.4l6.8-7.8L15.9 22H21.5l-8-11.4Zm-2.4 2.8-.8-1.1L3.9 3.6h2.5l5 7.2.8 1.1 6.9 9.9h-2.5l-5.4-7.4Z"/></svg></a>
+    </div>
+  </div>
+</body>
+</html>
